@@ -1,0 +1,22 @@
+Add, 
+Address, 
+Subtract, 
+Parallel arithmetic
+Saturate
+Multiply
+Divide
+Move
+Shift
+Count Leading zeros
+Compare
+Logical
+Bit Field
+Pack
+Extend
+Reverse
+Select
+If-Then
+Branch
+Move to or from PSR
+Processor State Change
+Load and Store
