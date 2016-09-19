@@ -1,15 +1,15 @@
-Add, 
-Address, 
-Subtract, 
-Parallel arithmetic
+Add - ALU 
+Address 
+Subtract - ALU 
+Parallel arithmetic - ALU
 Saturate
-Multiply
-Divide
-Move
-Shift
-Count Leading zeros
-Compare
-Logical
+Multiply - ALU
+Divide - ALU
+Move - 
+Shift - ALU
+Count Leading zeros - ALU
+Compare - ALU
+Logical - ALU
 Bit Field
 Pack
 Extend
@@ -20,3 +20,11 @@ Branch
 Move to or from PSR
 Processor State Change
 Load and Store
+
+File manager
+Registers
+RAM
+Program Counter
+ALU
+
+https://www.lri.fr/~de/ARM.pdf
