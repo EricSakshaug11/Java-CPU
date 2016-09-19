@@ -1,11 +1,25 @@
 public class Register{
 
-    boolean[] storage;
-    int size;
+    private boolean[] storage;
+    private final int SIZE;
 
     public Register(int size){
-	this.size = size;
+	SIZE = size;
 	storage = new boolean[size];
+    }
+
+    public void storeBits(boolean[] toStore){
+	for(int i = 0 ; i < storage.length ; i++){
+	    storage[i] = toStore[i];
+	}
+    }
+
+    public boolean[] readBits(){
+	return storage;
+    }
+
+    public int getSize(){
+	return SIZE;
     }
 
 }
