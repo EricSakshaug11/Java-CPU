@@ -1,15 +1,14 @@
-Add - ALU 
+Add - ALU - Has add register or add immediate functionality. - Done
 Address 
-Subtract - ALU 
+Subtract - ALU - Done
 Parallel arithmetic - ALU
-Saturate
 Multiply - ALU
 Divide - ALU
-Move - 
+Move
 Shift - ALU
 Count Leading zeros - ALU
 Compare - ALU
-Logical - ALU
+Logical - ALU - DONE
 Bit Field
 Pack
 Extend
@@ -22,9 +21,10 @@ Processor State Change
 Load and Store
 
 File manager
-Registers
-RAM
+Registers - pretty much done
+RAM - Pretty much done
 Program Counter
 ALU
+some form of output
 
 https://www.lri.fr/~de/ARM.pdf
