@@ -1,2 +1,15 @@
-ADD R1 R2 RQ - Adds R1 and R2, places the result in RQ
-ADC R1 R2 RQ - Adds R1 and R2, places the result in RQ. Also adds carry bit.
+ADD Rq Rn Rm - Adds Rn and Rm, places the result in Rq.
+ADC Rq Rn Rm - Adds Rn and Rm, places the result in Rq. Also adds carry bit.
+SUB Rq Rn Rm - Subtracts Rm from Rn, places the result in Rq
+SBC Rq Rn Rm - Subtracts Rm from Rn, subtracts carry bit, puts result in Rq
+RSB Rq Rn Rm - Subtracts Rn from Rm, places the result in Rq
+RSC Rq Rn Rm - Subtracts Rn from Rm, subtracts carry bit, puts result in Rq
+MUL Rq Rn Rm - Rq = Rn * Rm
+DIV Rq Rn Rm - Rq = Rn / Rm
+RDV Rq Rn Rm - Rq = Rm / Rn
+AND Rq Rn Rm - Rq = Rn & Rm
+EOR Rq Rn Rm - Rq = Rn ^ Rm
+ORR Rq Rn Rm - Rq = Rn | Rm
+NOR Rq Rn Rm - Rq = !(Rn ^ Rm)
+NAD Rq Rn Rm - Rq = !(Rn & Rd)
+NOT Rq    Rm - Rq = !Rm
